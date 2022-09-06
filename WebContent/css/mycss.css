@@ -1,0 +1,193 @@
+/* this is made as clone pure*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0.5em 0 1em 0;
+    line-height: 1.6em;
+}
+
+.rowmy {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+	
+    float: left;
+    width: 50%;		/*it was 600px*/
+    margin: 10px;
+    padding: 10px;
+}
+
+.column-big {
+    float: left;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.column-small {
+
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	align:center;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: #363185;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.maindata {
+    width: 55%;
+    height: 182px;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px 10px;
+    cursor: pointer;
+    float:left;
+	clear:none;
+} 
+
+
+
+.profile-image{
+	width:119px;
+	height:119px;
+}
+.button-small{
+	width:115px;
+	height:29px;
+	align:center;
+}
+
+
+
+.profile-image, .summary, .primary
+{
+	margin:10px;
+	float:left
+}
+
+.primary{
+	float:right;		/* In CSS, the down most class will overwrite whatever mentioned above */
+}
+
+#user-block ul#primary li a {
+    padding-left: 25px;
+    display: block;
+    color: #0b0657;
+}
+
+#user-block ul#primary li {
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+#user-block ul li {
+    clear: both;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px 0px;
+}
+
+
+.myIdeal, .lastViewers, {
+	width:55%;
+	height:200px;
+	float:left;
+	clear:none;
+}
+
+.block {
+    border-top: 1px dotted #ccc;
+    margin-top: 15px;
+    clear: both;
+}
+
+#content h2, #content h3 {
+    padding: 0.3em 0 0.7em 0;
+    letter-spacing: -1px;
+}
+
+ul.photo-access {
+}
+
+ul.photo-access li {
+    float: left;
+    margin: 10px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+}
+
+
+.block h3 {
+    margin: 10px 0 0 0;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: Lato, Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    background: #191919;
+    color: #333;
+    min-width: 70%;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+#view-profile .summaryPList {
+    border: 1px solid #efdfbe;
+    padding: 5px 10px;
+    margin: 25px 3px;
+    background: url(../img/template/category.png) repeat-x left bottom;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}

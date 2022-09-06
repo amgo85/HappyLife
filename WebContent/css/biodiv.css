@@ -1,0 +1,26 @@
+
+
+.matchBioDiv {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+#biogdiv, .matchBioDiv {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 180px;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -moz-box-shadow: 0px 4px 6px #ccc;
+    -webkit-box-shadow: 0px 4px 6px #ccc;
+    box-shadow: 0px 4px 6px #ccc;
+}
+
+#biogdiv .bioginner .biogactioncontainer, .matchBioDiv .bioginner .biogactioncontainer {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #efdfbe;
+    width: 100%;
+}

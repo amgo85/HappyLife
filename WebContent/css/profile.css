@@ -1,0 +1,15 @@
+
+
+
+
+.updateProfile>li>a{
+	display: block;
+    padding: 7px 5px;
+    margin: 0 4px;
+    font-size: 14px;
+    background: #9bed92; /* url(../img/template/button-small.png) repeat-x top left; */
+    border: 1px solid #e5c970;
+    text-shadow: 1px 1px 1px #fff;
+    -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+}
